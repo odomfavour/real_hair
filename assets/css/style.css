@@ -1,0 +1,102 @@
+body {
+  overflow-x: hidden;
+ font-family: 'Montserrat', sans-serif;
+  background: url(../img/bg.svg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+
+.navbar {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: 0.1rem;
+  background: transparent !important;
+  height: 72px;
+  color: #000000 !important;
+}
+
+.navbar-brand {
+  font-size: 23px;
+  color: #000000 !important;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+  padding-top: 0.8rem;
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #F2994A;
+  margin-top: 200px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.hair-display {
+  margin-bottom: 30px;
+}
+
+.m-50 {
+  margin-top: 60px;
+}
+
+.subscribe {
+  margin-top: 100px;
+}
+
+.subscribe input {
+  width: 400px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #F2994A;
+  border-radius: 5px;
+}
+
+.btn-sub {
+  background: #F2994A;
+  border-radius: 5px;
+  height: 50px;
+  color: #fff;
+  padding: 14px 35px;
+}
+
+.btn-sub:hover {
+  color: #fff;
+}
+
+.hero img {
+  height: 250px;
+}
+
+.hero img:hover {
+  transform: scale(1.2);
+  transition: all 2s ease-in;
+}
+
+
+/* media queries */
+
+@media (max-width: 767px){
+
+ 
+
+}
