@@ -19,7 +19,7 @@
       <!-- start home section -->
     <div id="home">
         <!-- nav -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">realhair</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -44,7 +44,16 @@
     <main>
         <div class="hero">
             <div class="container">
-                <div class="row">
+                <a href="#head" class="scroll-down">
+                    <div class="mouse">
+                        <span></span>
+                    </div>
+                    <div class="arrow">
+                        <span></span>
+                    </div>
+                    
+                </a>
+                <div class="row intro-section">
                     <div class="col-md-7">
                         <div class="intro">
                             <h1 class="hero-title"><span class="typed-text"></span><span class="cursor typing">&nbsp;</span></h1>
@@ -115,7 +124,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $('.counter').counterUp({
@@ -123,7 +132,7 @@
                 time: 4000
             });
         });
-    </script>
+    </script> -->
     <script>
         new WOW().init();
     </script>
