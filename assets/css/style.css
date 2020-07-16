@@ -8,10 +8,13 @@ body {
   padding-top: 70px
 }
 
-.hero {
-   background: url(../img/bg.svg);
+main {
+ background: url(../img/bg.svg);
   background-position: center;
   background-size: cover;
+}
+
+.hero {
   height: 100vh;
   position: relative;
 }
@@ -142,7 +145,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: 0.1rem;
-  background: transparent !important;
+  /* background: transparent !important; */
   height: 72px;
   color: #000000 !important;
 }
@@ -170,7 +173,7 @@ body {
 .hero-title {
   font-weight: 600;
   font-size: 40px;
-  color: #F2994A;
+  color: #05929B;
   margin-top: 200px;
   font-family: 'Raleway', sans-serif;
 }
@@ -192,12 +195,12 @@ body {
   width: 400px;
   height: 50px;
   background: #FFFFFF;
-  border: 1px solid #F2994A;
+  border: 1px solid #05929B;
   border-radius: 5px;
 }
 
 .btn-sub {
-  background: #F2994A;
+  background: #05929B;
   border-radius: 5px;
   height: 50px;
   color: #fff;
@@ -218,6 +221,69 @@ body {
 }
 
 
+#intro {
+  margin: 200px 0;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-title h3{
+  color: #065860;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.section-title p {
+  width: 60%;
+  margin: 0 auto;
+}
+.product img {
+  height: 400px;
+}
+
+.product {
+  text-align: center;
+}
+
+.importance {
+  margin-top: 100px;
+}
+
+
+/* owl slider */
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item {
+    height: 600px;
+    /* padding: 0 150px ; */
+}
+
+.item .screen-container {
+  padding: 0 150px ;
+}
+
+.screen-container img {
+    text-align: center;
+    height: 500px;
+    width: 250px !important;
+}
+
+.item .screen-desc {
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.owl-dots {
+    display: none;
+}
 
 
 /* media queries */
@@ -237,7 +303,7 @@ body {
 }
 
 .hero {
-  height: 1000px;
+  height: 1600px;
 }
 
 .hero-title {
@@ -246,6 +312,29 @@ body {
 
 .hair-display {
   margin-top: 40px;
+}
+
+.scroll-down {
+  display: none;
+}
+
+.m-50 {
+  margin-top: 0;
+}
+
+.section-title p {
+  width: 100%;
+}
+
+
+/* slider */
+
+.item .screen-container {
+  padding: 0 40px ;
+}
+
+.item .screen-desc {
+  width: 100%;
 }
  
 
