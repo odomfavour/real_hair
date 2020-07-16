@@ -252,6 +252,17 @@ main {
   margin-top: 100px;
 }
 
+.importance p {
+  font-size: 22px;
+}
+
+footer {
+  color: #fff;
+  background: #05929B;
+  height: 60px;
+  padding: 20px 0;
+}
+
 
 /* owl slider */
 .wrapper {
